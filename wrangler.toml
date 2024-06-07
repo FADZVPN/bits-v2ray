@@ -1,7 +1,22 @@
-name = "bits"
+name = "cobaa"
 main = "src/worker.ts"
 compatibility_date = "2024-01-01"
+[[routes]]
+pattern = "cobaa.fadztunnell.my.id"
+custom_domain = true
+[[routes]]
+pattern = "ava.game.naver.com.cobaa.fadztunnell.my.id"
+custom_domain = true
+[[routes]]
+pattern = "blog.sushiroll.co.id.cobaa.fadztunnell.my.id"
+custom_domain = true
+[[routes]]
+pattern = "blog.webex.com.cobaa.fadztunnell.my.id"
+custom_domain = true
+[[routes]]
+pattern = "www.sushiroll.co.id.cobaa.fadztunnell.my.id"
+custom_domain = true
 
-kv_namespaces = [
-  { binding = "settings", id = "KV_NAME" }
+fadzvpnid = [
+  { binding = "settings", id = "9309b805-49fc-40f0-9591-1fb7b1948274" }
 ]
